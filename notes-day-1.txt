@@ -21,5 +21,5 @@ Key Questions:
   - Rejected
   - Pending
 - What are a couple of ways to chain asynchronous functions? In other words, how can we set up asynchronous functions so that they pause execution until the resulting Promise is fulfilled or rejected?
-  - Async/await
-  - promise.then() chains
+  - multiple await'ing of async functions, saving the resolved value to a variable and using that result in subsequent calls
+  - promise.then() chains, using the resolved value from the promise in subsequent calls
