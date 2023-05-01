@@ -1,0 +1,25 @@
+Key Questions:
+
+- What is asynchronous programming in JavaScript?
+  - Functionality that allows you to run code without blocking other operations. 
+  - JavaScript runs in a single thread, which means that code is executed one line at a time and each line is blocked until the previous is complete
+  - With asynchronous programming, we can still run code without blocking the rest of the program
+- What is an async function in JavaScript?
+  - A function that allows us to designate when we want to execute code that may take an indeterminate amount of time (asynchronous code)
+- What operations do you think we’d need an asynchronous function to handle? In other words, some operations that we don’t know how long they’d execute for?
+  - Interaction with a database
+  - Fetching data from an external site
+- What is the return type of an asynchronous function?
+  - A Promise object
+  - we can use the 'await' keyword to pause execution of an asynchronous operation that returns a promise (like database interaction, retrieving data from an external URL) until the promise resolves
+- What is a promise not in coding?
+  - ‘a declaration or assurance that one will do a particular thing or that a particular thing will happen.’
+- What is a promise in programming?
+  - This is a special object that represents eventual completion of an asynchronous operation and its resulting value (if succeeded)
+- What are the 3 states of a Promise?
+  - Fulfilled 
+  - Rejected
+  - Pending
+- What are a couple of ways to chain asynchronous functions? In other words, how can we set up asynchronous functions so that they pause execution until the resulting Promise is fulfilled or rejected?
+  - Async/await
+  - promise.then() chains
