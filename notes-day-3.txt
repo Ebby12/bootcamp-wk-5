@@ -1,0 +1,16 @@
+Objectives:
+With Sequelize,
+[] Connect to the database
+[] Define models (tables) 
+[] “Sync” models
+[] Perform CRUD operations
+
+Key Questions:
+- REVIEW: What is the difference between a row and a column in a SQL table?
+- REVIEW: What is WHERE and what does it specify?
+- REVIEW: What are the keywords related to CRUD operations in SQL?
+- What is ORM, or object-relational mapping?
+- How do we know if we need to install node packages to our codebase?
+- What is a model in Sequelize equivalent to in SQL?
+- What is the difference between findOne and findAll in Sequelize?
+- Why do we need to designate our Sequelize operations with the await keyword?
