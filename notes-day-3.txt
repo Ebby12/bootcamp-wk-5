@@ -7,10 +7,22 @@ With Sequelize,
 
 Key Questions:
 - REVIEW: What is the difference between a row and a column in a SQL table?
+	- a row is also called a ‘record’ which represents a specific instance of data in a table
+	- a column represents an attribute or characteristic of the data stored in the table
 - REVIEW: What is WHERE and what does it specify?
+	- WHERE is a clause that lets us narrow down what data we are operating on
+	- for example, we might only want to show data with a certain characteristic value, WHERE will let us specify that
 - REVIEW: What are the keywords related to CRUD operations in SQL?
+	- SELECT, CREATE, INSERT, UPDATE, DELETE
 - What is ORM, or object-relational mapping?
+	- a programming framework that manages mapping between relational databases and an object-oriented language such as JavaScript’s implementation
+	- SQL databases are relational - we can define relationships between tables in our database
 - How do we know if we need to install node packages to our codebase?
+	- if there isn’t a node_modules folder in our folder
 - What is a model in Sequelize equivalent to in SQL?
+	- a model in Sequelize is equivalent to a table in SQL, where both represent an entity 
 - What is the difference between findOne and findAll in Sequelize?
+	- findAll returns all rows that match, findOne returns the first row that matches
 - Why do we need to designate our Sequelize operations with the await keyword?
+	- we don’t know how long interaction with the database will take
+	- if we need the database to be up-to-date with the newly created/updated/deleted data, we need to wait for it to finish before continuing
